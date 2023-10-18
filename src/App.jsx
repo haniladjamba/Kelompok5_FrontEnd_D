@@ -7,11 +7,22 @@ import Gen2 from './components/Header/generations/gen2'
 import Gen3 from './components/Header/generations/gen3'
 import Gen4 from './components/Header/generations/gen4'
 import Generations from './components/Header/generations/generations'
-
+import Home from './components/Home/Home'
+import Search from './components/Home/Search'
+import cardInfo from './components/Home/Card-Info/Card_Info'
+import Evolution from './components/Home/Card-info/Evolution'
+import LogoCI from './components/Home/Card-info/Logo'
+import typeEffect from './components/Home/Card-Info/Type_Effect'
 
 function App() {
   return (
     <div>
+      <Home />
+      <Search />
+      <cardInfo />
+      <Evolution />
+      <LogoCI />
+      <typeEffect />
       <Footer />
       <Header />
       <Logo />
