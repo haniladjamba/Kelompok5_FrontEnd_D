@@ -26,8 +26,8 @@ function App() {
       <Footer />
       <Header components="Header" />
       <Logo components="Logo"/>
-      <Gen1 />
-      <Gen2 />
+      <Gen1 component="Gen-1" />
+      <Gen2 component="Gen-2"/>
       <Gen3 />
       <Gen4 />
       <Generations />
