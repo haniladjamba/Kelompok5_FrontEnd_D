@@ -30,7 +30,7 @@ function App() {
       <Gen2 component="Gen-2"/>
       <Gen3 component="Gen-3"/>
       <Gen4 component="Gen-4"/>
-      <Generations />
+      <Generations component="Generations"/>
     </div>
   )
 }
