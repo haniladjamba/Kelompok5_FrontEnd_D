@@ -1,5 +1,5 @@
-const Footer = ({ component }) => {
-    return <div>this is the {component}</div>
+const Footer = () => {
+    return <h1>Footer</h1>
 }
 
 export default Footer;
