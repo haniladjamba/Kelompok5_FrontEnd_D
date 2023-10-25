@@ -26,11 +26,11 @@ function App() {
       <Footer />
       <Header components="Header" />
       <Logo components="Logo"/>
-      <Gen1 />
-      <Gen2 />
-      <Gen3 />
-      <Gen4 />
-      <Generations />
+      <Gen1 component="Gen-1" />
+      <Gen2 component="Gen-2"/>
+      <Gen3 component="Gen-3"/>
+      <Gen4 component="Gen-4"/>
+      <Generations component="Generations"/>
     </div>
   )
 }

@@ -1,5 +1,5 @@
-const Generations = () => {
-    return <h1>Generations</h1>
+const Generations = ({component}) => {
+    return <div>ini adalah {component}</div>
 }
 
 export default Generations;
