@@ -23,7 +23,7 @@ function App() {
       <Evolution />
       <LogoCI />
       <typeEffect />
-      <Footer />
+      <Footer component="Footer"/>
       <Header />
       <Logo />
       <Gen1 />
