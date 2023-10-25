@@ -24,8 +24,8 @@ function App() {
       <LogoCI />
       <typeEffect />
       <Footer />
-      <Header />
-      <Logo />
+      <Header components="Header" />
+      <Logo components="Logo"/>
       <Gen1 />
       <Gen2 />
       <Gen3 />
