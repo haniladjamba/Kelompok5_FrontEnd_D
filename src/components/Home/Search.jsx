@@ -1,5 +1,5 @@
-const Search = () => {
-    return <h1>Search</h1>
+const Search = ({component}) => {
+    return <div>ini adalah {component}</div>
 }
 
 export default Search;

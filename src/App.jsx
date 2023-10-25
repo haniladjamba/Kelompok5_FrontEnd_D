@@ -17,8 +17,8 @@ import typeEffect from './components/Home/Card-Info/Type_Effect'
 function App() {
   return (
     <div>
-      <Home />
-      <Search />
+      <Home component="Home"/>
+      <Search component="Search"/>
       <cardInfo />
       <Evolution />
       <LogoCI />

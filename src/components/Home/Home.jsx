@@ -1,5 +1,5 @@
-const Home = () => {
-    return <h1>Home</h1>
+const Home = ({component}) => {
+    return <div>ini adalah {component}</div>
 }
 
 export default Home;
