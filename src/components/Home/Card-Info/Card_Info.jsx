@@ -1,5 +1,5 @@
-const cardInfo = () => {
-    return <h1>Card-Info</h1>
+const cardInfo = ({component}) => {
+    return <div>ini adalah {component}</div>
 }
 
 export default cardInfo;

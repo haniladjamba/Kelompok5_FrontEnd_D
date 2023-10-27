@@ -1,5 +1,5 @@
-const Evolution = () => {
-    return <h1>Evolution</h1>
+const Evolution = ({component}) => {
+    return <div>ini adalah {component}</div>
 }
 
 export default Evolution;
