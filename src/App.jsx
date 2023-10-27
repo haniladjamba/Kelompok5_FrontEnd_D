@@ -10,8 +10,8 @@ import Generations from './components/Header/generations/generations'
 import Home from './components/Home/Home'
 import Search from './components/Home/Search'
 import cardInfo from './components/Home/Card-Info/Card_Info'
-import Evolution from './components/Home/Card-info/Evolution'
-import LogoCI from './components/Home/Card-info/Logo'
+import Evolution from './components/Home/Card-Info/Evolution'
+import LogoCI from './components/Home/Card-Info/Logo'
 import typeEffect from './components/Home/Card-Info/Type_Effect'
 
 function App() {
@@ -19,10 +19,10 @@ function App() {
     <div>
       <Home component="Home"/>
       <Search component="Search"/>
-      <cardInfo />
-      <Evolution />
-      <LogoCI />
-      <typeEffect />
+      <cardInfo component="Card-Info"/>
+      <Evolution component="Evolution"/>
+      <LogoCI component="Logo"/>
+      <typeEffect component="Type-Effect"/>
       <Footer />
       <Header />
       <Logo />
