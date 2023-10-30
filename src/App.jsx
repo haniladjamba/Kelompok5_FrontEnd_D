@@ -23,13 +23,6 @@ function App() {
       <Evolution component="Evolution"/>
       <LogoCI component="Logo"/>
       <typeEffect component="Type-Effect"/>
-      <Footer />
-      <Home />
-      <Search />
-      <cardInfo />
-      <Evolution />
-      <LogoCI />
-      <typeEffect />
       <Footer component="footer" />
       <Header />
       <Logo />
