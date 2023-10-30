@@ -1,5 +1,5 @@
-const typeEffect = () => {
-    return <h1>Type-Effect</h1>
+const typeEffect = ({component}) => {
+    return <div>ini adalah {component}</div>
 }
 
 export default typeEffect;
