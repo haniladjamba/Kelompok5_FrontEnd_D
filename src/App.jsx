@@ -10,20 +10,13 @@ import Generations from './components/Header/generations/generations'
 import Home from './components/Home/Home'
 import Search from './components/Home/Search'
 import cardInfo from './components/Home/Card-Info/Card_Info'
-import Evolution from './components/Home/Card-info/Evolution'
-import LogoCI from './components/Home/Card-info/Logo'
+import Evolution from './components/Home/Card-Info/Evolution'
+import LogoCI from './components/Home/Card-Info/Logo'
 import typeEffect from './components/Home/Card-Info/Type_Effect'
 
 function App() {
   return (
     <div>
-      <Home />
-      <Search />
-      <cardInfo />
-      <Evolution />
-      <LogoCI />
-      <typeEffect />
-      <Footer />
       <Header components="Header" />
       <Logo components="Logo"/>
       <Gen1 component="Gen-1" />
@@ -31,6 +24,13 @@ function App() {
       <Gen3 component="Gen-3"/>
       <Gen4 component="Gen-4"/>
       <Generations component="Generations"/>
+      <Home component="Home"/>
+      <Search component="Search"/>
+      <cardInfo component="Card-Info"/>
+      <Evolution component="Evolution"/>
+      <LogoCI component="Logo"/>
+      <typeEffect component="Type-Effect"/>
+      <Footer component="footer" />
     </div>
   )
 }
