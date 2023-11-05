@@ -1,5 +1,5 @@
-const Gen4 = () => {
-    return <h1>gen4</h1>
+const Gen4 = ({component}) => {
+    return <div>ini adalah {component}</div>
 }
 
 export default Gen4;

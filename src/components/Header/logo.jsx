@@ -1,5 +1,5 @@
-const Logo = () => {
-    return <h1>Logo</h1>;
+const Logo = ({components}) => {
+    return <div>this is the {components}</div>;
 }
 
 export default Logo;

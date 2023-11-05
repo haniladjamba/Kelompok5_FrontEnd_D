@@ -17,6 +17,13 @@ import typeEffect from './components/Home/Card-Info/Type_Effect'
 function App() {
   return (
     <div>
+      <Header components="Header" />
+      <Logo components="Logo"/>
+      <Gen1 component="Gen-1" />
+      <Gen2 component="Gen-2"/>
+      <Gen3 component="Gen-3"/>
+      <Gen4 component="Gen-4"/>
+      <Generations component="Generations"/>
       <Home component="Home"/>
       <Search component="Search"/>
       <cardInfo component="Card-Info"/>
@@ -24,13 +31,6 @@ function App() {
       <LogoCI component="Logo"/>
       <typeEffect component="Type-Effect"/>
       <Footer component="footer" />
-      <Header />
-      <Logo />
-      <Gen1 />
-      <Gen2 />
-      <Gen3 />
-      <Gen4 />
-      <Generations />
     </div>
   )
 }
